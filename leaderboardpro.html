@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RHZHFCJJ90"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-RHZHFCJJ90');
+    </script>
+
+    <meta charset="utf-8"/>
+    <meta name="description" content="Chem-E-Cross"/>
+    <meta name="keywords" content="azeotropy, crossword, chemical, engineering, chem-e-cross, iitb, iit, bombay, technology">
+    <meta name="author" content="Rohit Kaugud"/>
+    <meta name='viewport'
+      content='width=device-width, initial-scale=1.0, maximum-scale=1.0' />
+
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" 
+      rel="stylesheet"/> 
+    <link rel="stylesheet" href="leaderboardprostyles.css"/>
+
+    <link rel="shortcut icon" href="media/azeo21.png" height="10px"/>
+    <title>Chem-E-Cross - Leaderboard</title>
+
+  </head>
+
+
+  <body>
+
+    <div class="page-container" id="page-container">
+
+      <header class="header" id="head">
+
+        <div class="logo">
+          <a href="index.html">
+            <img src="media/azeo21.png" alt="AZeotropy 2021" height="50px"/>
+          </a">
+          <p class="header-title"><a href="index.html">Chem-E-Cross</a></p>
+        </div>
+
+        <div id="menu" onclick="onClickMenu()">
+				  <div id="bar1" class="bar"></div>
+				  <div id="bar2" class="bar"></div>
+				  <div id="bar3" class="bar"></div>
+        </div>
+        
+        <nav>
+          <ul class="menu" id="nav">
+            <li><a href="index.html#current_title">Latest</a></li> 
+            <!-- <li><a href="archive.html">Archive</a></li> -->
+            <li><a href="instructions.html">Instructions</a></li>
+            <li><a href="azeotropy.html">AZeotropy</a></li>
+            <!-- <li><a class="submit" href="https://forms.gle/ofg4q1kW45wjGhaa8" target="_blank">Submit</a></li> -->
+            <li><a class="submit" href="leaderboardpro.html">Leaderboard</a></li>
+          </ul>
+        </nav>
+
+      </header>
+
+      <div class="mainpage" id="mainpage">
+
+            <div class="title" id="current_title">
+                <h1>Leaderboard</h1>
+            </div>
+
+            <div class="leaderboard" id="leaderboard">
+
+                <div class="buttons" id="buttons">
+                    <div onclick="showDecember()" class="lbswitch-active" id="lbswitch-d">
+                        December
+                    </div>
+                    <div onclick="showOverall()" class="lbswitch-inactive" id="lbswitch-o">
+                        Overall
+                    </div>
+                </div>
+
+                <table class="leaderboard-table" id="leaderboard-table-d" cellspacing='0' cellpadding='0'>
+                  <thead>
+                    <tr>
+                      <th title="rank">Rank</th>
+                      <th title="name">Name</th>
+                      <th title="points">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Anchal Gautam</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Anand Kumar</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Dhruvil Singh</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>4</td>
+                    <td>Shashank Pandey</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>5</td>
+                    <td>Tharun Kumar Adigopula</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Anji Babu Vanka</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>7</td>
+                    <td>jyoti agrawal</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>8</td>
+                    <td>Anoop bhatnagar</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>9</td>
+                    <td>Piyush Dhiman</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>10</td>
+                    <td>Akhilesh mishra</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>11</td>
+                    <td>Areeba Fatima</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>12</td>
+                    <td>Shashwat Chitransh</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>13</td>
+                    <td>Manish kumar</td>
+                    <td>90</td>
+                    </tr>
+                    <tr>
+                    <td>14</td>
+                    <td>Harsh Mishra</td>
+                    <td>88</td>
+                    </tr>
+                    <tr>
+                    <td>15</td>
+                    <td>Harish Goyal</td>
+                    <td>86</td>
+                    </tr>
+                    <tr>
+                    <td>16</td>
+                    <td>Bhargavi Maddineni</td>
+                    <td>80</td>
+                    </tr>
+                    <tr>
+                    <td>17</td>
+                    <td>Lakshya Saxena</td>
+                    <td>80</td>
+                    </tr>
+                    <tr>
+                    <td>18</td>
+                    <td>Honney Taak</td>
+                    <td>80</td>
+                    </tr>
+                    <tr>
+                    <td>19</td>
+                    <td>Ashish Jaiswal</td>
+                    <td>78</td>
+                    </tr>
+                    <tr>
+                    <td>20</td>
+                    <td>Gaurav Bellal Natesh</td>
+                    <td>72</td>
+                    </tr>
+                    <tr>
+                    <td>21</td>
+                    <td>Namrita Chaudhary</td>
+                    <td>66</td>
+                    </tr>
+                    <tr>
+                    <td>22</td>
+                    <td>P. Hemanth</td>
+                    <td>62</td>
+                    </tr>
+                    <tr>
+                    <td>23</td>
+                    <td>Rajapandian</td>
+                    <td>62</td>
+                    </tr>
+                    <tr>
+                    <td>24</td>
+                    <td>Pritish Patra</td>
+                    <td>62</td>
+                    </tr>
+                    <tr>
+                    <td>25</td>
+                    <td>Ananya Madaan</td>
+                    <td>52</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <table class="hidelb" id="leaderboard-table-o" cellspacing='0' cellpadding='0'>
+                  <thead>
+                    <tr>
+                        <th title="rank">Rank</th>
+                        <th title="name">Name</th>
+                        <th title="points">Points</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                    <td>1</td>
+                    <td>Dhruvil Singh</td>
+                    <td>254</td>
+                    </tr>
+                    <tr>
+                    <td>2</td>
+                    <td>Anji Babu Vanka</td>
+                    <td>254</td>
+                    </tr>
+                    <tr>
+                    <td>3</td>
+                    <td>Tharun Kumar Adigopula</td>
+                    <td>252</td>
+                    </tr>
+                    <tr>
+                    <td>4</td>
+                    <td>Bhargavi Maddineni</td>
+                    <td>248</td>
+                    </tr>
+                    <tr>
+                    <td>5</td>
+                    <td>Anand Kumar</td>
+                    <td>246</td>
+                    </tr>
+                    <tr>
+                    <td>6</td>
+                    <td>Piyush Dhiman</td>
+                    <td>246</td>
+                    </tr>
+                    <tr>
+                    <td>7</td>
+                    <td>Lakshya Saxena</td>
+                    <td>238</td>
+                    </tr>
+                    <tr>
+                    <td>8</td>
+                    <td>Shashwat Chitransh</td>
+                    <td>236</td>
+                    </tr>
+                    <tr>
+                    <td>9</td>
+                    <td>Honney Taak</td>
+                    <td>236</td>
+                    </tr>
+                    <tr>
+                    <td>10</td>
+                    <td>Harish Goyal</td>
+                    <td>234</td>
+                    </tr>
+                    <tr>
+                    <td>11</td>
+                    <td>Anoop bhatnagar</td>
+                    <td>230</td>
+                    </tr>
+                    <tr>
+                    <td>12</td>
+                    <td>Gaurav Bellal Natesh</td>
+                    <td>228</td>
+                    </tr>
+                    <tr>
+                    <td>13</td>
+                    <td>Shashank Pandey</td>
+                    <td>228</td>
+                    </tr>
+                    <tr>
+                    <td>14</td>
+                    <td>Ashish Jaiswal</td>
+                    <td>220</td>
+                    </tr>
+                    <tr>
+                    <td>15</td>
+                    <td>Harsh Mishra</td>
+                    <td>218</td>
+                    </tr>
+                    <tr>
+                    <td>16</td>
+                    <td>Manish kumar</td>
+                    <td>216</td>
+                    </tr>
+                    <tr>
+                    <td>17</td>
+                    <td>P. Hemanth</td>
+                    <td>194</td>
+                    </tr>
+                    <tr>
+                    <td>18</td>
+                    <td>Namrita Chaudhary</td>
+                    <td>184</td>
+                    </tr>
+                    <tr>
+                    <td>19</td>
+                    <td>jyoti agrawal</td>
+                    <td>176</td>
+                    </tr>
+                    <tr>
+                    <td>20</td>
+                    <td>AMAN YADAV</td>
+                    <td>174</td>
+                    </tr>
+                    <tr>
+                    <td>21</td>
+                    <td>Akhilesh mishra</td>
+                    <td>174</td>
+                    </tr>
+                    <tr>
+                    <td>22</td>
+                    <td>Rajapandian</td>
+                    <td>174</td>
+                    </tr>
+                    <tr>
+                    <td>23</td>
+                    <td>Meghal Shah</td>
+                    <td>170</td>
+                    </tr>
+                    <tr>
+                    <td>24</td>
+                    <td>Pritish Patra</td>
+                    <td>150</td>
+                    </tr>
+                  </tbody>
+                </table>
+
+            </div>
+
+            <div id="notice" class="notice">
+              <p id="important" class="important"><strong>Important</strong></p>
+              <p id="message" class="message"> 
+                Only lowercase entries containing no spaces and punctuation marks have been awarded points. Individual points 
+                and leaderboard positions of all participants who did not finish in top 60 will be conveyed via email to the 
+                respective participants.<br/>
+                In case of a tie in overall scores, the net time difference between submissions of the participants has been used
+                as the tiebreak. 
+              </p>
+            </div>
+
+      </div>
+
+      <footer class="footer" id="footer">
+
+        <div id="copyright" class="copyright">
+          <p>&copy; 2024, Team Competitions, AZeotropy</p>
+        </div>
+
+        <div id="social" class="social">
+          <a href="https://www.facebook.com/AZeotropy/" target="_blank">
+            <center><img src="media/nuc-fb.svg" alt="Facebook" height="30px"/></center>
+          </a>
+          <a href="https://www.instagram.com/iitbombay_azeotropy/" target="_blank">
+            <center><img src="media/nuc-insta.svg" alt="Instagram" height="30px"/></center>
+          </a>
+          <a href="https://www.linkedin.com/company/azeotropy" target="_blank">
+            <center><img src="media/nuc-linkedin.svg" alt="Linkedin" height="30px"/></center>
+          </a>
+          <a href="https://azeotropyiitbblog.wordpress.com/" target="_blank">
+            <center><img src="media/nuc-wordpress.svg" alt="Wordpress" height="30px"/></center>
+          </a>
+          <a href="https://www.youtube.com/channel/UCuUhMNqBAYUplxgrhGkEGWQ" target="_blank">
+            <center><img src="media/nuc-yt.svg" alt="YouTube" height="30px"/></center>
+          </a>
+        </div>
+
+      </footer>
+
+    </div>
+
+    <script src="toggle.js"></script>
+    <script src="togglepro.js"></script>
+
+  </body>
+  
+</html>
